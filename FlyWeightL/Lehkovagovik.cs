@@ -18,7 +18,7 @@ namespace FlyWeightL
     public class ParamBigCloud : CloudParam
     {
         public ParamBigCloud(){
-            picture = new Bitmap(@"D:\Images\BigCloud.png");
+            picture = new Bitmap(@"Images\BigCloud.png");
             h = 60;
             w = 70;
             dir = 1;
@@ -29,7 +29,7 @@ namespace FlyWeightL
     {
         public ParamMediumCloud()
         {
-            picture = new Bitmap(@"D:\Images\MediumCloud.png");
+            picture = new Bitmap(@"Images\MediumCloud.png");
             h = 30;
             w = 60;
             dir = 1;
@@ -40,7 +40,7 @@ namespace FlyWeightL
     {
         public ParamSmallCloud()
         {
-            picture = new Bitmap(@"D:\Images\SmallCloud.png");
+            picture = new Bitmap(@"Images\SmallCloud.png");
             h = 20;
             w = 40;
             dir = 1;
@@ -71,7 +71,6 @@ namespace FlyWeightL
 
             if (x > 850)
             {
-
                 x = rand.Next(800, 835);
                 y0 = ways[rand.Next(0, ways.Length)];
                 dir *= -1;

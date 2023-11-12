@@ -18,7 +18,7 @@ namespace Clouds
             InitializeComponent();
             g = this.CreateGraphics();
         }
-        Cloud[] clouds = new Cloud[20];
+        Cloud[] clouds;
         Graphics g;
 
         ParamBigCloud p1 = new ParamBigCloud();
@@ -29,16 +29,24 @@ namespace Clouds
         int[] ways = {0, 60, 120, 180, 240, 300, 360, 420};
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            for (int i = 0; i < clouds.Length; i++)
-            {  
-                switch (r.Next(0, 3)) {
-                    case 0: clouds[i] = new Cloud(r.Next(0, 450),  p1, r, ways); break;
-                    case 1: clouds[i] = new Cloud(r.Next(0, 450),  p2, r, ways); break;
-                    case 2: clouds[i] = new Cloud(r.Next(0, 450),  p3, r, ways); break;
+            if (textBox1.Text != "")
+            {
+                g.FillRectangle(Brushes.White, 0, 0, this.Size.Width, this.Size.Height);
+                clouds = new Cloud[Convert.ToInt32(textBox1.Text)];
+                for (int i = 0; i < clouds.Length; i++)
+                {
+                    switch (r.Next(0, 3))
+                    {
+                        case 0: clouds[i] = new Cloud(r.Next(0, 450), p1, r, ways); break;
+                        case 1: clouds[i] = new Cloud(r.Next(0, 450), p2, r, ways); break;
+                        case 2: clouds[i] = new Cloud(r.Next(0, 450), p3, r, ways); break;
+                    }
                 }
+                timer1.Start();
             }
-            timer1.Start();
+            else{
+                MessageBox.Show("Введіть кількість хмаринок");
+            }
         }
      
         private void timer1_Tick(object sender, EventArgs e)
