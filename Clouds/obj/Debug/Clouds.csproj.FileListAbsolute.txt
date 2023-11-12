@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\Clouds\Clouds\bin\Debug\Clouds.exe.config
+C:\Users\User\source\repos\Clouds\Clouds\bin\Debug\Clouds.exe
+C:\Users\User\source\repos\Clouds\Clouds\bin\Debug\Clouds.pdb
+C:\Users\User\source\repos\Clouds\Clouds\obj\Debug\Clouds.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Clouds\Clouds\obj\Debug\Clouds.Properties.Resources.resources
+C:\Users\User\source\repos\Clouds\Clouds\obj\Debug\Clouds.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Clouds\Clouds\obj\Debug\Clouds.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Clouds\Clouds\obj\Debug\Clouds.exe
+C:\Users\User\source\repos\Clouds\Clouds\obj\Debug\Clouds.pdb
+C:\Users\User\source\repos\Clouds\Clouds\obj\Debug\Clouds.Form1.resources
+C:\Users\User\source\repos\Clouds\Clouds\bin\Debug\FlyWeightL.dll
+C:\Users\User\source\repos\Clouds\Clouds\bin\Debug\FlyWeightL.pdb
+C:\Users\User\source\repos\Clouds\Clouds\obj\Debug\Clouds.csproj.CopyComplete

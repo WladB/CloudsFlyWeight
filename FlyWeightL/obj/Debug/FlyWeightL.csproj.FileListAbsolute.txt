@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\Clouds\FlyWeightL\bin\Debug\FlyWeightL.dll
+C:\Users\User\source\repos\Clouds\FlyWeightL\bin\Debug\FlyWeightL.pdb
+C:\Users\User\source\repos\Clouds\FlyWeightL\obj\Debug\FlyWeightL.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Clouds\FlyWeightL\obj\Debug\FlyWeightL.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Clouds\FlyWeightL\obj\Debug\FlyWeightL.dll
+C:\Users\User\source\repos\Clouds\FlyWeightL\obj\Debug\FlyWeightL.pdb
